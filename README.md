@@ -8,9 +8,9 @@ Riemamn sums use  the area of a rectangle to approximate the area underneath a c
 
 The area of a rectangle is given by $A_{rec} = height * width $, where the width of each rectangle is determined by the amount of sub-intervals N used to evaluate the interval, $\Delta x = \frac{b - a}{N}$, and the height of the rectangle is the function evaluated at each $x_{i}$, $f(x_{i})$. 
 
-A left Riemann sum utilized the left edge of the rectangles, and runs from $x_{0} = a$ to $x_{f} = a + (N-1) * \Delta x$.
+A left Riemann sum utilized the left edge of the rectangles, and runs from $x_{0} = a$ to $x_{f} = a + (N-1) \Delta x$.
 
-A right Riemann sum utilized the right edge of each rectangle, with $x_{0} = a + \Delta x$ to $x_{f} = a + N * \Delta * X$.
+A right Riemann sum utilized the right edge of each rectangle, with $x_{0} = a + \Delta x$ to $x_{f} = a + N \Delta x$.
 
 The total area is given by adding up the area of all of the rectangles you use. Generally, using more rectangles (larger N or smaller $\Delta x$) gives more accurate results. 
 
