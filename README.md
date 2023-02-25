@@ -32,7 +32,9 @@ The output is given in the terminal as the following:
 
 This program also creates two graphs that analyze the Error of the Quadrature Integration vs Order of Integration and the Error of the Trapezoidal Integration vs Number of Subintervals and are seen in the files **
 
-![Coin Toss Graph.png](https://github.com/DJDdawg/PHSX815_Week2/blob/master/python/Coin%20Toss%20Graph.png)
+![QuadratureError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/QuadratureError.png)
 
 
-![Dice Roll Graph](https://github.com/DJDdawg/PHSX815_Week2/blob/master/python/Dice%20Roll%20Graph.png)
+![TrapezoidError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/TrapezoidError.png)
+
+
