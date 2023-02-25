@@ -4,7 +4,11 @@ This week explored Numerical Integation.
 
 **Riemann Sums**
 
-Riemamn sums use rectangles to 
+Riemamn sums use  the area of a rectangle to approximate the area underneath a curve. 
+
+The area of a rectangle is given by $A_{rec} = height * width $, where the width of each rectangle is determined by the amount of sub-intervals N used to evaluate the interval, and the height of the rectangle is the function evaluated at each $x_{i}$. 
+
+A left Riemann sum utilized the left edge of the rectangles, and runs from $x_{0} = a$ to $x_{f} = a + (N-1) \Delta X$
 
 **Trapezoidal Sums**
 
@@ -25,9 +29,13 @@ Where the number of intervals for the Riemann and Trapezoidal sums is specified 
 The output is given in the terminal as the following: 
 
 >method by quadratures: 0.6321205588283172
+>
 >Left Riemann Sum: 0.6315706623750237
+>
 >Right Riemann Sum: 0.6252864292852441
+>
 >Trapzoid Sum: 0.628428545830134
+>
 >analytical solution: 0.6321205588285577
 
 This program also creates two graphs that analyze the Error of the Quadrature Integration vs Order of Integration and the Error of the Trapezoidal Integration vs Number of Subintervals and are seen in the files **
