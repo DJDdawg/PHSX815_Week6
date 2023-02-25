@@ -24,6 +24,8 @@ I won't pretend to understand Quadrature Integration, but there is a scipy packa
 
 This week's code is in **Integrate.py** where the above 4 methods have been implemented to integrate the function $y = e^{-x}$ on the interval [0, 1]. 
 
+
+**Running the Code and Results**
 The code can be run with the following terminal command:
 
 >$ python3 Integration.py -Nint 100 -Nord 5 -Lowerbound 0 -Upperbound 1
