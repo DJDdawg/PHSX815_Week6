@@ -26,6 +26,7 @@ This week's code is in **Integrate.py** where the above 4 methods have been impl
 
 
 **Running the Code and Results**
+
 The code can be run with the following terminal command:
 
 >$ python3 Integration.py -Nint 100 -Nord 5 -Lowerbound 0 -Upperbound 1
