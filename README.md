@@ -53,3 +53,7 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 ![TrapezoidError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/TrapezoidError.png)
 
 
+~~Monte Python and the Holy Grail~~ Monte Carlo Integration
+
+![TrapezoidError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MonteCarloError.png)
+
