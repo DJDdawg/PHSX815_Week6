@@ -59,7 +59,9 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 
 Anyways... We're back, and this time we are integrating more *stochastically*. 
 
-Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: $I = \int_{a}^{b} f(x) \mathrm{d}x \approx \frac{b-a}{N} \sum_{n=1}^{N} f(x_{i})$ giving that a random uniform distribution was used to obtain each $x_{i})$, making the weights $w_{i} = 1$.
+Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: 
+
+$I = \int_{a}^{b} f(x) \mathrm{d}x \approx \frac{b-a}{N} \sum_{n=1}^{N} f(x_{i})$ giving that a random uniform distribution was used to obtain each $x_{i})$, making the weights $w_{i} = 1$.
 
 The program can be run in the terminal with the following:
 >$ python3 MontePython.py -Nint 1000 -Nord 50 -Npoints 2000  -Lowerbound 0 -Upperbound 1
