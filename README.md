@@ -59,7 +59,27 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 
 Anyways... We're back, and this time we are integrating more *stochastically*. 
 
-Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: $I = \int_{a}^{b} f(x) \mathrm{d}x \approx \frac{b-a}{N} \sum{n=1}^{N} f(x_{i})$.
+Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: $I = \int_{a}^{b} f(x) \mathrm{d}x \approx \frac{b-a}{N} \sum_{n=1}^{N} f(x_{i})$ giving that a random uniform distribution was used to obtain each $x_{i})$, making the weights $w_{i} = 1$.
 
-![TrapezoidError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MonteCarloError.png)
+The program can be run in the terminal with the following:
+>$ python3 MontePython.py -Nint 1000 -Nord 50 -Npoints 2000  -Lowerbound 0 -Upperbound 1
 
+Where the commands are the same as above, and '-Npoints xxx' is the only new command that you must specify. This is the number of function evaluations that will be performed during the Monte Carlo integration. 
+
+The output for the above is the following: 
+
+>analytical solution: 0.6321205588285577
+>
+>method by quadratures: 0.6321205588285574
+>
+>Left Riemann Sum: 0.6320684242800702
+>
+>Right Riemann Sum: 0.6314366717846835
+>
+>Trapzoid Sum: 0.6317525480323769
+>
+>Monte Carlo Integration: 0.633629250035489
+
+And a new Graph, **MonteCarloError** is created and can be seen below. 
+
+![MonteCarloError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MonteCarloError.png)
