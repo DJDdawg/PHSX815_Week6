@@ -55,6 +55,7 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 
 **~~Monte Python and the Holy Grail~~ Monte Carlo Integration**
 
+![MontePython.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MonteCarloError.png)
 'Tis but a flesh wound. 
 
 Anyways... We're back, and this time we are integrating more *stochastically*. 
