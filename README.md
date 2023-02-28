@@ -59,7 +59,7 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 
 Anyways... We're back, and this time we are integrating more *stochastically*. 
 
-Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: $I = \int_a^b \! f(x) \, \mathrm{d}x \approx \frac{b-a}{N} \sum_{n=1}^{N} f(x_{i})$.
+Building upon the above code, I copied the contents from **Integration.py** into **MontePython.py** and simply added a function to do Monte Carlo Integration using the following approximation: $I = \int_{a}^{b} f(x) \mathrm{d}x \approx \frac{b-a}{N} \sum{n=1}^{N} f(x_{i})$.
 
 ![TrapezoidError.png](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MonteCarloError.png)
 
