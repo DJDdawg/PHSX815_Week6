@@ -56,9 +56,8 @@ This program also creates two graphs that analyze the Error of the Quadrature In
 **~~Monte Python and the Holy Grail~~ Monte Carlo Integration**
 
 ![MontePython.jpeg](https://github.com/DJDdawg/PHSX815_Week6/blob/main/MontePython.jpeg)
-Burn whatever witch created Monte Carlo Integration.
 
-'Tis but a flesh wound. 
+Burn whatever witch created Monte Carlo Integration.
 
 Anyways... We're back, and this time we are integrating more *stochastically*. 
 
@@ -91,4 +90,4 @@ And a new Graph, **MonteCarloError.png** is created and can be seen below.
 
 The error for this graph is much more random than the others, and while adding more function evaluations does seem to generally decrease the error, this type of integration seems to require more points than the other types above (this could perhaps just be because of the function I have chosen). 
 
-Let's go gamble on **black** in Morocco. 100 Bucks on the big one.
+Let's go gamble on **black** in Morocco. 100 Bucks on the big one. If you win, voila! If you lose, 'tis but a flesh wound. 
