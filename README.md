@@ -88,5 +88,4 @@ And a new Graph, **MonteCarloError.png** is created and can be seen below.
 
 The error for this graph is much more random than the others, and while adding more function evaluations does seem to generally decrease the error, this type of integration seems to require more points than the other types above (this could perhaps just be because of the function I have chosen). 
 
-Let's go gamble on **red** in Morocco. 10 Bucks on the big one.
-$\sum_{n=1}^{\infty} 2^{-n} = 1$
+Let's go gamble on **black** in Morocco. 100 Bucks on the big one.
